@@ -11,9 +11,9 @@
 		DD810E88207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E81207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m */; };
 		DD810E89207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E82207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m */; };
 		DD810E8A207C1C3C008DA70A /* SEGAppboyIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E83207C1C3C008DA70A /* SEGAppboyIntegration.m */; };
-		DD810E8C207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E85207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h */; };
-		DD810E8D207C1C3C008DA70A /* SEGAppboyIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E86207C1C3C008DA70A /* SEGAppboyIntegration.h */; };
-		DD810E8E207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E87207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h */; };
+		DD810E8C207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E85207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD810E8D207C1C3C008DA70A /* SEGAppboyIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E86207C1C3C008DA70A /* SEGAppboyIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD810E8E207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E87207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD810E94207C1D01008DA70A /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E90207C1D00008DA70A /* FLAnimatedImage.framework */; };
 		DD810E95207C1D01008DA70A /* Appboy_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E91207C1D00008DA70A /* Appboy_iOS_SDK.framework */; };
 		DD810E96207C1D01008DA70A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E92207C1D01008DA70A /* SDWebImage.framework */; };

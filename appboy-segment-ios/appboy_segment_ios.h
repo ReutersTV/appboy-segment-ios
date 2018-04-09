@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char appboy_segment_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <appboy_segment_ios/PublicHeader.h>
 
-
+#import <appboy_segment_ios/SEGAppboyIntegration.h>
+#import <appboy_segment_ios/SEGAppboyIntegrationEndpointDelegate.h>
+#import <appboy_segment_ios/SEGAppboyIntegrationFactory.h>
