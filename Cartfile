@@ -1,2 +1,5 @@
 github "segmentio/analytics-ios"
-binary "https://raw.githubusercontent.com/ReutersTV/appboy_ios_sdk_carthage/master/Appboy_iOS_SDK.json" ~> 3.3.3
+binary "https://raw.githubusercontent.com/Appboy/appboy-ios-sdk/master/appboy_ios_sdk.json" ~> 3.4.0
+github "rs/SDWebImage"
+github "Flipboard/FLAnimatedImage"
+
