@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473ADE88233A4EBC0076EC9D /* Appboy_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E91207C1D00008DA70A /* Appboy_iOS_SDK.framework */; };
+		473ADE89233A4EC20076EC9D /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E90207C1D00008DA70A /* FLAnimatedImage.framework */; };
 		DD15A59F207C1BE0005C8A2F /* appboy_segment_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = DD15A59D207C1BE0005C8A2F /* appboy_segment_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD810E88207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E81207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m */; };
-		DD810E89207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E82207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m */; };
 		DD810E8A207C1C3C008DA70A /* SEGAppboyIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = DD810E83207C1C3C008DA70A /* SEGAppboyIntegration.m */; };
 		DD810E8C207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E85207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD810E8D207C1C3C008DA70A /* SEGAppboyIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E86207C1C3C008DA70A /* SEGAppboyIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD810E8E207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD810E87207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD810E94207C1D01008DA70A /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E90207C1D00008DA70A /* FLAnimatedImage.framework */; };
-		DD810E95207C1D01008DA70A /* Appboy_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E91207C1D00008DA70A /* Appboy_iOS_SDK.framework */; };
 		DD810E96207C1D01008DA70A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E92207C1D01008DA70A /* SDWebImage.framework */; };
 		DD810E97207C1D01008DA70A /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD810E93207C1D01008DA70A /* Analytics.framework */; };
 /* End PBXBuildFile section */
@@ -25,11 +23,9 @@
 		DD15A59D207C1BE0005C8A2F /* appboy_segment_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appboy_segment_ios.h; sourceTree = "<group>"; };
 		DD15A59E207C1BE0005C8A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD810E81207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAppboyIntegrationFactory.m; sourceTree = "<group>"; };
-		DD810E82207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAppboyIntegrationEndpointDelegate.m; sourceTree = "<group>"; };
 		DD810E83207C1C3C008DA70A /* SEGAppboyIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAppboyIntegration.m; sourceTree = "<group>"; };
 		DD810E85207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAppboyIntegrationFactory.h; sourceTree = "<group>"; };
 		DD810E86207C1C3C008DA70A /* SEGAppboyIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAppboyIntegration.h; sourceTree = "<group>"; };
-		DD810E87207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAppboyIntegrationEndpointDelegate.h; sourceTree = "<group>"; };
 		DD810E90207C1D00008DA70A /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = Carthage/Build/iOS/FLAnimatedImage.framework; sourceTree = "<group>"; };
 		DD810E91207C1D00008DA70A /* Appboy_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appboy_iOS_SDK.framework; path = Carthage/Build/iOS/Appboy_iOS_SDK.framework; sourceTree = "<group>"; };
 		DD810E92207C1D01008DA70A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
@@ -41,10 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD810E94207C1D01008DA70A /* FLAnimatedImage.framework in Frameworks */,
-				DD810E95207C1D01008DA70A /* Appboy_iOS_SDK.framework in Frameworks */,
 				DD810E96207C1D01008DA70A /* SDWebImage.framework in Frameworks */,
 				DD810E97207C1D01008DA70A /* Analytics.framework in Frameworks */,
+				473ADE88233A4EBC0076EC9D /* Appboy_iOS_SDK.framework in Frameworks */,
+				473ADE89233A4EC20076EC9D /* FLAnimatedImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,11 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				DD810E81207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m */,
-				DD810E82207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m */,
 				DD810E83207C1C3C008DA70A /* SEGAppboyIntegration.m */,
 				DD810E85207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h */,
 				DD810E86207C1C3C008DA70A /* SEGAppboyIntegration.h */,
-				DD810E87207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h */,
 			);
 			name = Classes;
 			path = Pod/Classes;
@@ -112,7 +106,6 @@
 			files = (
 				DD15A59F207C1BE0005C8A2F /* appboy_segment_ios.h in Headers */,
 				DD810E8C207C1C3C008DA70A /* SEGAppboyIntegrationFactory.h in Headers */,
-				DD810E8E207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.h in Headers */,
 				DD810E8D207C1C3C008DA70A /* SEGAppboyIntegration.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +179,6 @@
 			files = (
 				DD810E8A207C1C3C008DA70A /* SEGAppboyIntegration.m in Sources */,
 				DD810E88207C1C3C008DA70A /* SEGAppboyIntegrationFactory.m in Sources */,
-				DD810E89207C1C3C008DA70A /* SEGAppboyIntegrationEndpointDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
